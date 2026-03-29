@@ -1,0 +1,20 @@
+ALIGN 4
+PlainObjects:
+#incext Png2Dmp "Prologue.png" --lz77
+
+
+
+
+
+ALIGN 4
+PlainTiles:
+#incext compress "Prologue.mapchip_config"
+
+
+ALIGN 4
+PlainPalette:
+#incbin "Prologue.dmp"
+
+EventPointerTable(0x01, PlainObjects)
+EventPointerTable(0x02, PlainPalette)
+EventPointerTable(0x03, PlainTiles)

@@ -1,0 +1,20 @@
+ALIGN 4
+TempleObjects:
+#incext Png2Dmp "24x.png" --lz77
+
+
+
+
+
+ALIGN 4
+TempleTiles:
+#incext compress "24x.mapchip_config"
+
+
+ALIGN 4
+TemplePalette:
+#incbin "24x_pal.dmp"
+
+EventPointerTable(0x01, TempleObjects)
+EventPointerTable(0x02, TemplePalette)
+EventPointerTable(0x03, TempleTiles)

@@ -1,2 +1,4 @@
 #include "Portraits/PortraitsInstaller.event"
 #include "PortraitHeight/PortraitHeight.event"
+#include "Tileset/TilesetInstaller.event"
+#include "MapSprite/MapSpriteInstaller.event"
