@@ -6,6 +6,8 @@
  
 /* 
 //First free SMS is 107
+#define Lord 107 
+#define Lord2 108 
  
  
  
@@ -17,6 +19,8 @@
 //Copy from here 
 PUSH 
  
+SetSMS(Lord, 1, Lord_Data) 
+SetSMS(Lord2, 1, Lord2_Data) 
  
  
 POP 
@@ -25,4 +29,12 @@ POP
  
  
 //SMS Image Data 
+ 
+ALIGN 4 
+Lord_Data: 
+#incbin "dmp/Lord.dmp" 
+ 
+ALIGN 4 
+Lord2_Data: 
+#incbin "dmp/Lord2.dmp" 
  
