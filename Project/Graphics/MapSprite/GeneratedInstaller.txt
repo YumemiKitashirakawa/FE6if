@@ -1,3 +1,4 @@
+ HEAD
 //Generated - do not edit
 //Copy paste the /* */ section into your definitions if desired.
 //Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
@@ -38,3 +39,45 @@ ALIGN 4
 Lord2_Data: 
 #incbin "dmp/Lord2.dmp" 
  
+
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//First free SMS is 107
+#define Lord 107 
+#define Lord2 108 
+ 
+ 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(Lord, 1, Lord_Data) 
+SetSMS(Lord2, 1, Lord2_Data) 
+ 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+Lord_Data: 
+#incbin "dmp/Lord.dmp" 
+ 
+ALIGN 4 
+Lord2_Data: 
+#incbin "dmp/Lord2.dmp" 
+
+ 8eef4f3b9df7fe7956df4b67ff9fbea2366fa4d6

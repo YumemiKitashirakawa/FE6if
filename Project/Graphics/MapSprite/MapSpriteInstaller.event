@@ -1,3 +1,4 @@
+ HEAD
 ALIGN 4
 
 Lord:
@@ -7,3 +8,45 @@ ALIGN 4
 
 Lord2:
 #incbin "Lord2.dmp" 
+
+
+
+#include "Internals.event"
+//#include "GeneratedInstaller.event"
+
+
+//First free SMS is 107
+#define Lord 01
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Lord2 02
+ 
+
+ALIGN 4 
+Lord standing: 
+#incbin "Lord/Lord.dmp" 
+
+ALIGN 4 
+Lord moving: 
+#incbin "Lord/Lord2.dmp" 
+
+
+
+//Copy from here 
+PUSH 
+ 
+//SetSMS
+//SetSMS
+ 
+ 
+//SetMMS
+//SetMMS
+ 
+POP 
+//Copy until here 
+
+
+
+
+ 8eef4f3b9df7fe7956df4b67ff9fbea2366fa4d6
