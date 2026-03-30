@@ -14,6 +14,11 @@
 //put your maps in braces so that name conflict issues don't occur. If you don't know what that means, just put any #includes in this file in braces.
 
 {
+//#include "Prologue\Prologue.event"
+}
+{
 #include "24x\24x.event"
 }
-
+{
+#include "Chapter1\Chapter1.event"
+}
