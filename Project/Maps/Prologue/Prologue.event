@@ -33,13 +33,8 @@ Map_Change_0:
   SHORT $80
 
 ALIGN 4
-Map_Change_1:
-  SHORT 
-
-ALIGN 4
 MapChangesData:
   TileMap(0, 12, 3, 1, 1, Map_Change_0)
-  TileMap(1, 27, 10, -26, -9, Map_Change_1)
   TileMapEnd
 
 EventPointerTable(0x6, MapChangesData)

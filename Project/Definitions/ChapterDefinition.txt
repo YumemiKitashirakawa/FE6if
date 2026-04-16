@@ -1,13 +1,5 @@
- HEAD
 #define Any 0xFF
 
 #define PrologueTitle 0x160
 
 #define Chapter1Title 0x2
-
-#define Any 0xFF
-
-#define Prologue 0x0
-
-#define Chapter1 0x1
- 408f4f6f2878d68813db4b9d41a37827c98dfa6d

@@ -1,6 +1,2 @@
- HEAD
 ## PrologueStart // PrologueStart
-[OpenMidRight][LoadRoy]Let's go, Marcus![A]
-
-##PrologueStart
-[OpenMidRight][LoadFace][0x2][OpenMidRight]Let's go, Marcus![A]
+[OpenMidRight][LoadRoy]Let's go, Marcus![X]

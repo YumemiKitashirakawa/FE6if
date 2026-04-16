@@ -1,4 +1,3 @@
- HEAD
 
 
 #include "Internals.event"
@@ -15,21 +14,3 @@ LordStand_Data:
 ALIGN 4
 LordWalk_Data: 
 #incbin "Lord/Lord2.dmp"
-
-
-
-#include "Internals.event"
-
-#define LordStand 0x1 
-
-#define LordWalk 0x2
-
-ALIGN 4
-
-LordStand_Data:
-#incbin "Lord/Lord.dmp"
-
-ALIGN 4
-LordWalk_Data: 
-#incbin "Lord/Lord2.dmp"
- 408f4f6f2878d68813db4b9d41a37827c98dfa6d

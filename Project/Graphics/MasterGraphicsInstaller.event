@@ -1,12 +1,5 @@
- HEAD
 #include "Portraits/PortraitsInstaller.event"
 #include "PortraitHeight/PortraitHeight.event"
 #include "Tileset/TilesetInstaller.event"
 #include "MapSprite/Installer.event"
 #include "Animations/Master Animation Installer.event"
-
-#include "Portraits/PortraitsInstaller.event"
-#include "PortraitHeight/PortraitHeight.event"
-#include "Tileset/TilesetInstaller.event"
-#include "MapSprite/Installer.event"
- 408f4f6f2878d68813db4b9d41a37827c98dfa6d

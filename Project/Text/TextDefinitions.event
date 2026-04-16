@@ -583,19 +583,13 @@
 #define SD_Pathfinder $F6A
 #define SD_ArmsMaster $F6B
 #define SD_FactionSlayer $F6C
-#define EirikaLike1ID $F6D
-#define EirikaLike2ID $F6E
-#define EirikaDislike1ID $F6F
-#define EirikaDislike2ID $F70
-#define EirikaAgeID $F71
-#define EirikaHeightID $F72
-#define JuliusText $F73
-#define TheMilanorThievesAdvanceText $F74
-#define MapBaText $F75
-#define RoyName $212
-#define RoyDesc $26E
-#define MarcusName $213
-#define PrologueTitle $214
-#define Chapter1Title $215
+#define JuliusText $F6D
+#define TheMilanorThievesAdvanceText $F6E
+#define MapBBText $F6F
+#define RoyName $F70
+#define RoyDesc $F71
+#define MarcusName $F72
+#define PrologueTitle $F73
+#define Chapter1Title $F74
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

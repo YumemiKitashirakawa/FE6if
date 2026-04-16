@@ -2334,60 +2334,36 @@ __TEXTPROCESSF6C:
 setText($F6C, __TEXTPROCESSF6C)
 
 __TEXTPROCESSF6D:
-#incbin ".TextEntries/text_buildfileEirikaLike1ID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileJuliusText.fetxt.dmp"
 setText($F6D, __TEXTPROCESSF6D)
 
 __TEXTPROCESSF6E:
-#incbin ".TextEntries/text_buildfileEirikaLike2ID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileTheMilanorThievesAdvanceText.fetxt.dmp"
 setText($F6E, __TEXTPROCESSF6E)
 
 __TEXTPROCESSF6F:
-#incbin ".TextEntries/text_buildfileEirikaDislike1ID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileMapBBText.fetxt.dmp"
 setText($F6F, __TEXTPROCESSF6F)
 
 __TEXTPROCESSF70:
-#incbin ".TextEntries/text_buildfileEirikaDislike2ID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileRoyName.fetxt.dmp"
 setText($F70, __TEXTPROCESSF70)
 
 __TEXTPROCESSF71:
-#incbin ".TextEntries/text_buildfileEirikaAgeID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileRoyDesc.fetxt.dmp"
 setText($F71, __TEXTPROCESSF71)
 
 __TEXTPROCESSF72:
-#incbin ".TextEntries/text_buildfileEirikaHeightID.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileMarcusName.fetxt.dmp"
 setText($F72, __TEXTPROCESSF72)
 
 __TEXTPROCESSF73:
-#incbin ".TextEntries/text_buildfileJuliusText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfilePrologueTitle.fetxt.dmp"
 setText($F73, __TEXTPROCESSF73)
 
 __TEXTPROCESSF74:
-#incbin ".TextEntries/text_buildfileTheMilanorThievesAdvanceText.fetxt.dmp"
-setText($F74, __TEXTPROCESSF74)
-
-__TEXTPROCESSF75:
-#incbin ".TextEntries/text_buildfileMapBaText.fetxt.dmp"
-setText($F75, __TEXTPROCESSF75)
-
-__TEXTPROCESS212:
-#incbin ".TextEntries/text_buildfileRoyName.fetxt.dmp"
-setText($212, __TEXTPROCESS212)
-
-__TEXTPROCESS26E:
-#incbin ".TextEntries/text_buildfileRoyDesc.fetxt.dmp"
-setText($26E, __TEXTPROCESS26E)
-
-__TEXTPROCESS213:
-#incbin ".TextEntries/text_buildfileMarcusName.fetxt.dmp"
-setText($213, __TEXTPROCESS213)
-
-__TEXTPROCESS214:
-#incbin ".TextEntries/text_buildfilePrologueTitle.fetxt.dmp"
-setText($214, __TEXTPROCESS214)
-
-__TEXTPROCESS215:
 #incbin ".TextEntries/text_buildfileChapter1Title.fetxt.dmp"
-setText($215, __TEXTPROCESS215)
+setText($F74, __TEXTPROCESSF74)
 
 }
 

@@ -1,4 +1,3 @@
-
 ALIGN 4
 LordMapMoving:
 #incext Png2Dmp "Lord.png" --lz77
@@ -9,15 +8,4 @@ LordMapStanding:
 
 ALIGN 4
 LordAP:
-ALIGN 4
-LordMapMoving:
-#incext Png2Dmp "Lord.png" --lz77
-
-ALIGN 4
-LordMapStanding:
-#incext Png2Dmp "Lord2.png" --lz77
-
-ALIGN 4
-LordAP:
-
 #incbin "Lord.bin"

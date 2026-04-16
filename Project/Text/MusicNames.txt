@@ -1,15 +1,6 @@
- HEAD
 ## JuliusText
 Julius[X]
 ## TheMilanorThievesAdvanceText
 The Milanor Thieves Advance[X]
 ## MapBBText
 Map B B[X]
-
-## JuliusText
-Julius[X]
-## TheMilanorThievesAdvanceText
-The Milanor Thieves Advance[X]
-## MapBaText
-Map B A[X]
- 408f4f6f2878d68813db4b9d41a37827c98dfa6d

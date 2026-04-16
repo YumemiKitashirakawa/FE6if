@@ -1,4 +1,3 @@
-
 #include "Internals.event"
 //First free SMS is 107
 #define Lord 107 
@@ -33,40 +32,4 @@ Lord_Data:
 ALIGN 4 
 Lord2_Data: 
 #incbin "dmp/Lord2.dmp" 
-
-#include "Internals.event"
-//First free SMS is 107
-#define Lord 107 
-
-//First free MMS is 127 and will show up if you've expanded classes.
-#define Lord2 127 
- 
- 
- 
-
- 
- 
- 
- 
-//Copy from here 
-PUSH 
- 
-SetSMS(0x1, 0, Lord_Data) 
-SetMMS(0x1, Lord2_Data, NormalAP) 
- 
- 
-POP 
-//Copy until here  
- 
- 
-//SMS Image Data 
- 
-ALIGN 4 
-Lord_Data: 
-#incbin "dmp/Lord.dmp" 
- 
-ALIGN 4 
-Lord2_Data: 
-#incbin "dmp/Lord2.dmp" 
- 408f4f6f2878d68813db4b9d41a37827c98dfa6d
  
