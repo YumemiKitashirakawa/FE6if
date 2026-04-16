@@ -5,6 +5,8 @@
 ALIGN 4
 NewSoundRoom:
 SoundRoomEntry(JuliusID, 0, JuliusText)
+SoundRoomEntry(TheMilanorThievesAdvanceID, 0, TheMilanorThievesAdvanceText)
+SoundRoomEntry(MapBBID, 0, MapBBText)
 SoundRoomTerminator
 
 PUSH

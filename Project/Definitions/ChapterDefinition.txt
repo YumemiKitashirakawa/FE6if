@@ -1,3 +1,5 @@
 #define Any 0xFF
 
-#define Prologue 0x0
+#define PrologueTitle 0x160
+
+#define Chapter1Title 0x2

@@ -2334,28 +2334,36 @@ __TEXTPROCESSF6C:
 setText($F6C, __TEXTPROCESSF6C)
 
 __TEXTPROCESSF6D:
-#incext ParseFile ".TextEntries/text_buildfileEirikaLike1ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileJuliusText.fetxt"
 setText($F6D, __TEXTPROCESSF6D)
 
 __TEXTPROCESSF6E:
-#incext ParseFile ".TextEntries/text_buildfileEirikaLike2ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileTheMilanorThievesAdvanceText.fetxt"
 setText($F6E, __TEXTPROCESSF6E)
 
 __TEXTPROCESSF6F:
-#incext ParseFile ".TextEntries/text_buildfileEirikaDislike1ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileMapBBText.fetxt"
 setText($F6F, __TEXTPROCESSF6F)
 
 __TEXTPROCESSF70:
-#incext ParseFile ".TextEntries/text_buildfileEirikaDislike2ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileRoyName.fetxt"
 setText($F70, __TEXTPROCESSF70)
 
 __TEXTPROCESSF71:
-#incext ParseFile ".TextEntries/text_buildfileEirikaAgeID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileRoyDesc.fetxt"
 setText($F71, __TEXTPROCESSF71)
 
 __TEXTPROCESSF72:
-#incext ParseFile ".TextEntries/text_buildfileEirikaHeightID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileMarcusName.fetxt"
 setText($F72, __TEXTPROCESSF72)
+
+__TEXTPROCESSF73:
+#incext ParseFile ".TextEntries/text_buildfilePrologueTitle.fetxt"
+setText($F73, __TEXTPROCESSF73)
+
+__TEXTPROCESSF74:
+#incext ParseFile ".TextEntries/text_buildfileChapter1Title.fetxt"
+setText($F74, __TEXTPROCESSF74)
 
 }
 

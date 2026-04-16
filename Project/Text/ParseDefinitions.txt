@@ -50,7 +50,7 @@
 
 [CurrentPortrait] = [0xFF][0xFF]
 
-[LoadInnes] = [LoadFace][0xf][0x1]
+[LoadRoy] = [LoadFace][0x2][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]
 [LoadLArachel] = [LoadFace][0x22][0x1]
 [LoadRennac] = [LoadFace][0x24][0x1]

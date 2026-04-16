@@ -20,4 +20,14 @@ voicegroup000:
 SongTable(JuliusID, Julius, MapMusicGroup)
 }
 
+{
+#include MusicEvents/TheMilanorThievesAdvance.event
+SongTable(TheMilanorThievesAdvanceID, TheMilanorThievesAdvance, MapMusicGroup)
+}
+
+{
+#include MusicEvents/MapBB.event
+SongTable(MapBBID, MapBB, MapMusicGroup)
+}
+
 #include "SoundroomInstaller.event"

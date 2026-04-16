@@ -13,6 +13,14 @@ __TEXTPROCESS212:
 #incext ParseFile ".TextEntries/UnitsNamesRoyName.fetxt"
 setText($212, __TEXTPROCESS212)
 
+__TEXTPROCESS26E:
+#incext ParseFile ".TextEntries/UnitsNamesRoyDesc.fetxt"
+setText($26E, __TEXTPROCESS26E)
+
+__TEXTPROCESS213:
+#incext ParseFile ".TextEntries/UnitsNamesMarcusName.fetxt"
+setText($213, __TEXTPROCESS213)
+
 }
 
 #endif // TEXT_INSTALLER_F__ANIMACIONES_SKILL_E_SKILLSYSTEM_FE8_MASTER_TOOLS_TEXTPROCESS_UNITSNAMES_TXT

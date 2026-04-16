@@ -1,0 +1,20 @@
+ALIGN 4
+Plain2Objects:
+#incext Png2Dmp "Chapter2.png" --lz77
+
+
+
+
+
+ALIGN 4
+Plain2Tiles:
+#incext compress "Chapter2.mapchip_config"
+
+
+ALIGN 4
+Plain2Palette:
+#incbin "Chapter2.dmp"
+
+EventPointerTable(0x01, Plain2Objects)
+EventPointerTable(0x02, Plain2Palette)
+EventPointerTable(0x03, Plain2Tiles)

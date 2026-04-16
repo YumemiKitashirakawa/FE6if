@@ -1,2 +1,6 @@
 ## JuliusText
 Julius[X]
+## TheMilanorThievesAdvanceText
+The Milanor Thieves Advance[X]
+## MapBBText
+Map B B[X]

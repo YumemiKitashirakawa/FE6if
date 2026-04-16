@@ -1,1 +1,3 @@
 #include "MusicDefinition.txt"
+#include "MapSpriteDefs.txt"
+//#include "ChapterDefinition.txt"
