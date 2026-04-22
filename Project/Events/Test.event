@@ -44,7 +44,7 @@ ALIGN 4
 
 PlayerUnits:
 
- UNIT Roy EirikaLord Roy Level(20,Ally,True) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+ UNIT Roy EirikaLord Roy Level(20,Ally,True) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary,Metis'sTome] NoAI
 
  UNIT Marcus Paladin Roy Level(1,Ally,False) [1,17] 0x0 0x0 0x0 0x1 [SilverLance,SteelSword] NoAI
 EnemyUnits:
