@@ -48,15 +48,17 @@ PlayerUnits:
 
  UNIT Marcus Paladin Roy Level(1,Ally,False) [1,17] 0x0 0x0 0x0 0x1 [SilverLance,SteelSword] NoAI
 EnemyUnits:
- UNIT Roy EirikaLord Roy Level(1,Enemy,False) [22,4] 0x0 0x0 0x0 0x0 [Rapier,Vulnerary] NoAI
-UNIT
-
+ 
+ UNIT Gilliam Armour Knight Gilliam Level(5,Enemy,True) [22,4] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
 
 BeginningScene:
 
 LOAD1 1 PlayerUnits
 
 ENUN
+
+CGText(PrologueStart)
+
 
 LOAD1 0 EnemyUnits
 
