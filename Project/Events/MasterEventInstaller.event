@@ -1,7 +1,7 @@
 #include "WorldMapEvents.event"
 {
-#include "Test.event"
+#include "Macros.event"
 }
 {
-#include "Macros.event"
+#include "Test.event"
 }
