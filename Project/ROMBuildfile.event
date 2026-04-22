@@ -28,7 +28,7 @@
     //Events
     //#include "Events/Release_map.event"
     //#include "Events/WorldMapEvents.event"
-	//#include "Events/MasterEventInstaller.event"
+	#include "Events/MasterEventInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
