@@ -10,9 +10,9 @@ POIN TurnBasedEvents
 POIN CharacterBasedEvents
 POIN LocationBasedEvents
 POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
+POIN Dunno Dunno Dunno Dunno
 POIN TrapData TrapData
-POIN PlayerUnits
+POIN PlayerUnits PlayerUnits
 POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
@@ -43,9 +43,9 @@ ALIGN 4
 
 PlayerUnits:
 
- UNIT Roy EirikaLord Roy Level(20,Ally,True) [2,16] 0x0 0x0 0x1 REDA2R16 [Rapier,Vulnerary,MetissTome] NoAI
+ UNIT Roy EirikaLord Roy Level(20,Ally,True) [1,0] 0x0 0x0 0x1 REDA1R0 [Rapier,Vulnerary,MetissTome] NoAI
 
- UNIT Marcus Paladin Roy Level(1,Ally,False) [1,17] 0x0 0x0 0x1 REDA1R17 [SilverLance,SteelSword] NoAI
+ UNIT Marcus Paladin Roy Level(1,Ally,False) [2,0] 0x0 0x0 0x1 REDA2R0 [SilverLance,SteelSword] NoAI
  UNIT
 EnemyUnits:
  
