@@ -1,5 +1,34 @@
-#define Any 0xFF
+// ChapterID
+#define AllChapters 0xFF
 
-#define PrologueTitle 0x160
 
-#define Chapter1Title 0x2
+// MapChangesID
+
+
+
+
+// MapID
+
+
+// EventsID
+
+
+
+// ObjectType 
+#define PrologueObjectID 0x01
+#define Chapter8ObjectID 0x03
+
+
+// PaletteID
+#define ProloguePaletteID 0x38
+#define Chapter8PaletteID 0x04
+
+
+// TileConfig
+#define PrologueMapchipConfigID 0x03
+#define Chapter8MapchipConfigID 0x01
+
+
+// TileAnimations
+
+
