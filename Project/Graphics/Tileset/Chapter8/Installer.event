@@ -1,0 +1,15 @@
+    ALIGN 4
+    Chapter8Object:
+    #incbin "chapter8.dmp"
+
+    ALIGN 4
+    Chapter8Palette:
+    #incbin "chapter8_pal.dmp"
+
+    ALIGN 4
+    Chapter8MapchipConfig:
+    #incbin "chapter8_comp.dmp"
+	
+	EventPointerTable(Chapter8ObjectID,Chapter8Object)
+	EventPointerTable(Chapter8PaletteID,Chapter8Palette)
+    EventPointerTable(Chapter8MapchipConfigID,Chapter8MapchipConfig)
