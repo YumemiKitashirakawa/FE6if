@@ -1,2 +1,3 @@
 #include "24x/Installer.event"
 #include "Prologue/Installer.event"
+#include "Chapter8/Installer.event"
