@@ -11,9 +11,9 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x9"/>
    <property name="MapID" value="0x8"/>
-   <property name="ObjectType" value="0x1"/>
-   <property name="PaletteID" value="0x2"/>
-   <property name="TileConfig" value="0x3"/>
+   <property name="ObjectType" value="Chapter1ObjectID"/>
+   <property name="PaletteID" value="Chapter1PaletteID"/>
+   <property name="TileConfig" value="Chapter1MapchipConfigID"/>
   </properties>
   <data>
   <tile gid="39"/>
