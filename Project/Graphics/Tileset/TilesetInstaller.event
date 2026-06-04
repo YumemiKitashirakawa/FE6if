@@ -1,6 +1,7 @@
 #include "24x/Installer.event"
 #include "Prologue/Prologue.event"
 #include "Chapter1/Chapter1.event"
+#include "Chapter3/Chapter3.event"
 #include "Chapter8/Chapter8.event"
 
 
@@ -11,6 +12,10 @@ EventPointerTable(PrologueMapchipConfigID,PrologueMapchipConfig)
 EventPointerTable(Chapter1ObjectID,Chapter1Object)
 EventPointerTable(Chapter1PaletteID,Chapter1Palette)
 EventPointerTable(Chapter1MapchipConfigID,Chapter1MapchipConfig)
+
+EventPointerTable(Chapter3ObjectID,Chapter3Object)
+EventPointerTable(Chapter3PaletteID,Chapter3Palette)
+EventPointerTable(Chapter3MapchipConfigID,Chapter3MapchipConfig)
 
 EventPointerTable(Chapter8ObjectID,Chapter8Object)
 EventPointerTable(Chapter8PaletteID,Chapter8Palette)
