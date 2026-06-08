@@ -17,22 +17,22 @@
 // ObjectType 
 #define PrologueObjectID 0x01
 #define Chapter1ObjectID 0x01
-#define Chapter3ObjectID 0x0B
-#define Chapter8ObjectID 0x01
+#define Chapter3ObjectID 0x18
+#define Chapter8ObjectID 0x3C
 
 
 // PaletteID
-#define ProloguePaletteID 0x38
-#define Chapter1PaletteID 0x38
-#define Chapter3PaletteID 0x0C
-#define Chapter8PaletteID 0x4C
+#define ProloguePaletteID 0x02
+#define Chapter1PaletteID 0x02
+#define Chapter3PaletteID 0x19
+#define Chapter8PaletteID 0x3D
 
 
 // TileConfig
 #define PrologueMapchipConfigID 0x03
 #define Chapter1MapchipConfigID 0x03
-#define Chapter3MapchipConfigID 0x06
-#define Chapter8MapchipConfigID 0x01
+#define Chapter3MapchipConfigID 0x1A
+#define Chapter8MapchipConfigID 0x3E
 
 
 // TileAnimations
