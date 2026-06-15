@@ -8,7 +8,7 @@
 
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-	#include "Definitions/MusicDefinition.txt"
+	#include "Definitions/DefinitionInstaller.event"
 	
 
     MESSAGE Used text space ends at currentOffset
@@ -28,10 +28,11 @@
     //Events
     //#include "Events/Release_map.event"
     //#include "Events/WorldMapEvents.event"
-	//#include "Events/MasterEventInstaller.event"
+	#include "Events/MasterEventInstaller.event"
 
     //Maps
-    #include "Maps/MasterMapInstaller.event"
+    #include "Maps_test/Master Map Installer.event"
+	
    
 	
 	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
