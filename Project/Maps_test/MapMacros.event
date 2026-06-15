@@ -31,11 +31,7 @@
 // to do: test & use these so I don't have to manually type them in the csv lol 
 
 
-#define WaterAnimationID 1 
-#define BeachAnimationID 2 
-#define SeafoamWaterID 3
-#define CeruleanCaveWaterID 4 
-#define UpdatedVillageAnimations 6
+
 
 
 
@@ -49,22 +45,5 @@
 // so you could probably just do WhicheverCh and it'd work fine 
 
 // note that opening and closing the Fly Menu (not available indoors) will remove any tile changes that have occurred 
-
-#define ViridianForestNMapChanges 120 
-#define SaffronGymMapChanges 121 
-#define Route21MapChanges 122
-#define MansionB1MapChanges 123
-#define MansionB2MapChanges 124
-#define MansionB3MapChanges 125
-#define MansionB4MapChanges 126
-#define LoreleiMapChanges 127
-#define BrunoMapChanges 128
-#define AgathaMapChanges 129
-#define LanceMapChanges 130 
-#define ChampionMapChanges 131
-#define SeafoamB4MapChanges 132 
-#define SeafoamB5MapChanges 133
-#define CinnabarGymMapChanges 134 
-
 
 
