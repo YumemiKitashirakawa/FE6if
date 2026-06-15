@@ -1,0 +1,16 @@
+ALIGN 4
+Chapter1Object:
+#incbin "Chapter1.dmp"
+
+
+
+
+
+ALIGN 4
+Chapter1MapchipConfig:
+#incbin "Chapter1_comp.dmp"
+
+
+ALIGN 4
+Chapter1Palette:
+#incbin "Chapter1_pal.dmp"

@@ -1,0 +1,16 @@
+ALIGN 4
+PrologueObject:
+#incbin "Prologue.dmp"
+
+
+
+
+
+ALIGN 4
+PrologueMapchipConfig:
+#incbin "Prologue_comp.dmp"
+
+
+ALIGN 4
+ProloguePalette:
+#incbin "Prologue_pal.dmp"
