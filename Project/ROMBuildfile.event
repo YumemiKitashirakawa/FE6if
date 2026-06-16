@@ -1,17 +1,16 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
-	#include "repointedTextTable.event"
-	#include "Maps_test/Definitions.event"
-	#include "Maps_test/MapMacros.event" 
 //PROTECT $25224
     ORG FreeSpace
 
-    
+    #include "repointedTextTable.event"
 
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
 	#include "Definitions/DefinitionInstaller.event"
+	#include "Maps_test/Definitions.event"
+	#include "Maps_test/MapMacros.event" 
 	
 
     MESSAGE Used text space ends at currentOffset
@@ -35,7 +34,7 @@
 
     //Maps
     #include "Maps_test/Master Map Installer.event"
-	#include "Maps_test/MapTables.event"
+	#include "Maps_test/MapTables.event" 
 	
    
 	
