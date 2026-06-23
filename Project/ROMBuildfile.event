@@ -9,8 +9,8 @@
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
 	#include "Definitions/DefinitionInstaller.event"
-	#include "Maps_test/Definitions.event"
-	#include "Maps_test/MapMacros.event" 
+	#include "Maps2/Definitions.event"
+	
 	
 
     MESSAGE Used text space ends at currentOffset
@@ -33,8 +33,9 @@
 	#include "Events/MasterEventInstaller.event"
 
     //Maps
-    #include "Maps_test/Master Map Installer.event"
-	#include "Maps_test/MapTables.event" 
+    //#include "Maps2/Master Map Installer.event"
+	#include "Maps2/SplitPList.event"
+	
 	
    
 	
