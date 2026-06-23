@@ -1,6 +1,0 @@
-//Generated. Do not edit!
-24gaidenConf
-Chapter3Conf
-Chapter5Conf
-Chapter8Conf
-PrologueConf

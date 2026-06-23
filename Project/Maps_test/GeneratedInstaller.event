@@ -1,18 +1,0 @@
-//Generated. Do not edit!
-
-ObjTypePalettePointerTable(24gaidenPal,24gaidenPalData)
-ObjTypePalettePointerTable(24gaidenObj,24gaidenObjData)
-ObjTypePalettePointerTable(Chapter3Pal,Chapter3PalData)
-ObjTypePalettePointerTable(Chapter3Obj,Chapter3ObjData)
-ObjTypePalettePointerTable(Chapter5Pal,Chapter5PalData)
-ObjTypePalettePointerTable(Chapter5Obj,Chapter5ObjData)
-ObjTypePalettePointerTable(Chapter8Pal,Chapter8PalData)
-ObjTypePalettePointerTable(Chapter8Obj,Chapter8ObjData)
-ObjTypePalettePointerTable(ProloguePal,ProloguePalData)
-ObjTypePalettePointerTable(PrologueObj,PrologueObjData)
-TileConfigPointerTable(24gaidenConf,24gaidenConfData)
-TileConfigPointerTable(Chapter3Conf,Chapter3ConfData)
-TileConfigPointerTable(Chapter5Conf,Chapter5ConfData)
-TileConfigPointerTable(Chapter8Conf,Chapter8ConfData)
-TileConfigPointerTable(PrologueConf,PrologueConfData)
-ALIGN 424gaidenObjData:#incbin "dmp/24gaiden.dmp"ALIGN 424gaidenPalData:#incbin "dmp/24gaiden_pal_fog.dmp"ALIGN 4Chapter3ObjData:#incbin "dmp/Chapter3.dmp"ALIGN 4Chapter3PalData:#incbin "dmp/Chapter3_pal_fog.dmp"ALIGN 4Chapter5ObjData:#incbin "dmp/Chapter5.dmp"ALIGN 4Chapter5PalData:#incbin "dmp/Chapter5_pal_fog.dmp"ALIGN 4Chapter8ObjData:#incbin "dmp/Chapter8.dmp"ALIGN 4Chapter8PalData:#incbin "dmp/Chapter8_pal_fog.dmp"ALIGN 4PrologueObjData:#incbin "dmp/Prologue.dmp"ALIGN 4ProloguePalData:#incbin "dmp/Prologue_pal_fog.dmp"ALIGN 424gaidenConfData:#incbin "dmp/24gaiden_comp.dmp"ALIGN 4Chapter3ConfData:#incbin "dmp/Chapter3_comp.dmp"ALIGN 4Chapter5ConfData:#incbin "dmp/Chapter5_comp.dmp"ALIGN 4Chapter8ConfData:#incbin "dmp/Chapter8_comp.dmp"ALIGN 4PrologueConfData:#incbin "dmp/Prologue_comp.dmp"

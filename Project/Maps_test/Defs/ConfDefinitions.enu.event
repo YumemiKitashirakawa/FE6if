@@ -1,5 +1,0 @@
-#define 24gaidenConf 0x1
-#define Chapter3Conf 0x2
-#define Chapter5Conf 0x3
-#define Chapter8Conf 0x4
-#define PrologueConf 0x5
