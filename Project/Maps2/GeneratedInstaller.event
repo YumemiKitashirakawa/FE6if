@@ -1,0 +1,27 @@
+//Generated. Do not edit!
+
+ObjTypePalettePointerTable(Chapter1Pal,Chapter1PalData)
+ObjTypePalettePointerTable(Chapter1Obj,Chapter1ObjData)
+ObjTypePalettePointerTable(Chapter2Pal,Chapter2PalData)
+ObjTypePalettePointerTable(Chapter2Obj,Chapter2ObjData)
+ObjTypePalettePointerTable(Chapter3Pal,Chapter3PalData)
+ObjTypePalettePointerTable(Chapter3Obj,Chapter3ObjData)
+ObjTypePalettePointerTable(Chapter4Pal,Chapter4PalData)
+ObjTypePalettePointerTable(Chapter4Obj,Chapter4ObjData)
+ObjTypePalettePointerTable(Chapter5Pal,Chapter5PalData)
+ObjTypePalettePointerTable(Chapter5Obj,Chapter5ObjData)
+ObjTypePalettePointerTable(Chapter6Pal,Chapter6PalData)
+ObjTypePalettePointerTable(Chapter6Obj,Chapter6ObjData)
+ObjTypePalettePointerTable(ProloguePal,ProloguePalData)
+ObjTypePalettePointerTable(PrologueObj,PrologueObjData)
+ObjTypePalettePointerTable(UpdatedVillagePal,UpdatedVillagePalData)
+ObjTypePalettePointerTable(UpdatedVillageObj,UpdatedVillageObjData)
+TileConfigPointerTable(Chapter1Conf,Chapter1ConfData)
+TileConfigPointerTable(Chapter2Conf,Chapter2ConfData)
+TileConfigPointerTable(Chapter3Conf,Chapter3ConfData)
+TileConfigPointerTable(Chapter4Conf,Chapter4ConfData)
+TileConfigPointerTable(Chapter5Conf,Chapter5ConfData)
+TileConfigPointerTable(Chapter6Conf,Chapter6ConfData)
+TileConfigPointerTable(PrologueConf,PrologueConfData)
+TileConfigPointerTable(UpdatedVillageConf,UpdatedVillageConfData)
+ALIGN 4Chapter1ObjData:#incbin "dmp/Chapter1.dmp"ALIGN 4Chapter1PalData:#incbin "dmp/Chapter1_pal.dmp"ALIGN 4Chapter2ObjData:#incbin "dmp/Chapter2.dmp"ALIGN 4Chapter2PalData:#incbin "dmp/Chapter2_pal.dmp"ALIGN 4Chapter3ObjData:#incbin "dmp/Chapter3.dmp"ALIGN 4Chapter3PalData:#incbin "dmp/Chapter3_pal.dmp"ALIGN 4Chapter4ObjData:#incbin "dmp/Chapter4.dmp"ALIGN 4Chapter4PalData:#incbin "dmp/Chapter4_pal.dmp"ALIGN 4Chapter5ObjData:#incbin "dmp/Chapter5.dmp"ALIGN 4Chapter5PalData:#incbin "dmp/Chapter5_pal.dmp"ALIGN 4Chapter6ObjData:#incbin "dmp/Chapter6.dmp"ALIGN 4Chapter6PalData:#incbin "dmp/Chapter6_pal.dmp"ALIGN 4PrologueObjData:#incbin "dmp/Prologue.dmp"ALIGN 4ProloguePalData:#incbin "dmp/Prologue_pal.dmp"ALIGN 4UpdatedVillageObjData:#incbin "dmp/UpdatedVillage.dmp"ALIGN 4UpdatedVillagePalData:#incbin "dmp/UpdatedVillage_pal.dmp"ALIGN 4Chapter1ConfData:#incbin "dmp/Chapter1_comp.dmp"ALIGN 4Chapter2ConfData:#incbin "dmp/Chapter2_comp.dmp"ALIGN 4Chapter3ConfData:#incbin "dmp/Chapter3_comp.dmp"ALIGN 4Chapter4ConfData:#incbin "dmp/Chapter4_comp.dmp"ALIGN 4Chapter5ConfData:#incbin "dmp/Chapter5_comp.dmp"ALIGN 4Chapter6ConfData:#incbin "dmp/Chapter6_comp.dmp"ALIGN 4PrologueConfData:#incbin "dmp/Prologue_comp.dmp"ALIGN 4UpdatedVillageConfData:#incbin "dmp/UpdatedVillage_comp.dmp"

@@ -1,0 +1,8 @@
+#define Chapter1Ch 0x1
+#define Chapter2Ch 0x2
+#define Chapter3Ch 0x3
+#define Chapter4Ch 0x4
+#define Chapter5Ch 0x5
+#define Chapter6Ch 0x6
+#define Chapter7Ch 0x7
+#define PrologueCh 0x8

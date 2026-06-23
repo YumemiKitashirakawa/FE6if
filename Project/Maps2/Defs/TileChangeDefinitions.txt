@@ -1,0 +1,9 @@
+//Generated. Do not edit!
+Chapter1TileChanges
+Chapter2TileChanges
+Chapter3TileChanges
+Chapter4TileChanges
+Chapter5TileChanges
+Chapter6TileChanges
+Chapter7TileChanges
+PrologueTileChanges
