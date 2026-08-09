@@ -2,6 +2,12 @@
 
 ObjTypePalettePointerTable(Chapter1Pal,Chapter1PalData)
 ObjTypePalettePointerTable(Chapter1Obj,Chapter1ObjData)
+ObjTypePalettePointerTable(Chapter11APal,Chapter11APalData)
+ObjTypePalettePointerTable(Chapter11AObj,Chapter11AObjData)
+ObjTypePalettePointerTable(Chapter12Pal,Chapter12PalData)
+ObjTypePalettePointerTable(Chapter12Obj,Chapter12ObjData)
+ObjTypePalettePointerTable(Chapter12xPal,Chapter12xPalData)
+ObjTypePalettePointerTable(Chapter12xObj,Chapter12xObjData)
 ObjTypePalettePointerTable(Chapter2Pal,Chapter2PalData)
 ObjTypePalettePointerTable(Chapter2Obj,Chapter2ObjData)
 ObjTypePalettePointerTable(Chapter3Pal,Chapter3PalData)
@@ -12,16 +18,28 @@ ObjTypePalettePointerTable(Chapter5Pal,Chapter5PalData)
 ObjTypePalettePointerTable(Chapter5Obj,Chapter5ObjData)
 ObjTypePalettePointerTable(Chapter6Pal,Chapter6PalData)
 ObjTypePalettePointerTable(Chapter6Obj,Chapter6ObjData)
+ObjTypePalettePointerTable(Chapter8Pal,Chapter8PalData)
+ObjTypePalettePointerTable(Chapter8Obj,Chapter8ObjData)
+ObjTypePalettePointerTable(Chapter8xPal,Chapter8xPalData)
+ObjTypePalettePointerTable(Chapter8xObj,Chapter8xObjData)
+ObjTypePalettePointerTable(Chapter9Pal,Chapter9PalData)
+ObjTypePalettePointerTable(Chapter9Obj,Chapter9ObjData)
 ObjTypePalettePointerTable(ProloguePal,ProloguePalData)
 ObjTypePalettePointerTable(PrologueObj,PrologueObjData)
 ObjTypePalettePointerTable(UpdatedVillagePal,UpdatedVillagePalData)
 ObjTypePalettePointerTable(UpdatedVillageObj,UpdatedVillageObjData)
 TileConfigPointerTable(Chapter1Conf,Chapter1ConfData)
+TileConfigPointerTable(Chapter11AConf,Chapter11AConfData)
+TileConfigPointerTable(Chapter12Conf,Chapter12ConfData)
+TileConfigPointerTable(Chapter12xConf,Chapter12xConfData)
 TileConfigPointerTable(Chapter2Conf,Chapter2ConfData)
 TileConfigPointerTable(Chapter3Conf,Chapter3ConfData)
 TileConfigPointerTable(Chapter4Conf,Chapter4ConfData)
 TileConfigPointerTable(Chapter5Conf,Chapter5ConfData)
 TileConfigPointerTable(Chapter6Conf,Chapter6ConfData)
+TileConfigPointerTable(Chapter8Conf,Chapter8ConfData)
+TileConfigPointerTable(Chapter8xConf,Chapter8xConfData)
+TileConfigPointerTable(Chapter9Conf,Chapter9ConfData)
 TileConfigPointerTable(PrologueConf,PrologueConfData)
 TileConfigPointerTable(UpdatedVillageConf,UpdatedVillageConfData)
-ALIGN 4Chapter1ObjData:#incbin "dmp/Chapter1.dmp"ALIGN 4Chapter1PalData:#incbin "dmp/Chapter1_pal.dmp"ALIGN 4Chapter2ObjData:#incbin "dmp/Chapter2.dmp"ALIGN 4Chapter2PalData:#incbin "dmp/Chapter2_pal.dmp"ALIGN 4Chapter3ObjData:#incbin "dmp/Chapter3.dmp"ALIGN 4Chapter3PalData:#incbin "dmp/Chapter3_pal.dmp"ALIGN 4Chapter4ObjData:#incbin "dmp/Chapter4.dmp"ALIGN 4Chapter4PalData:#incbin "dmp/Chapter4_pal.dmp"ALIGN 4Chapter5ObjData:#incbin "dmp/Chapter5.dmp"ALIGN 4Chapter5PalData:#incbin "dmp/Chapter5_pal.dmp"ALIGN 4Chapter6ObjData:#incbin "dmp/Chapter6.dmp"ALIGN 4Chapter6PalData:#incbin "dmp/Chapter6_pal.dmp"ALIGN 4PrologueObjData:#incbin "dmp/Prologue.dmp"ALIGN 4ProloguePalData:#incbin "dmp/Prologue_pal.dmp"ALIGN 4UpdatedVillageObjData:#incbin "dmp/UpdatedVillage.dmp"ALIGN 4UpdatedVillagePalData:#incbin "dmp/UpdatedVillage_pal.dmp"ALIGN 4Chapter1ConfData:#incbin "dmp/Chapter1_comp.dmp"ALIGN 4Chapter2ConfData:#incbin "dmp/Chapter2_comp.dmp"ALIGN 4Chapter3ConfData:#incbin "dmp/Chapter3_comp.dmp"ALIGN 4Chapter4ConfData:#incbin "dmp/Chapter4_comp.dmp"ALIGN 4Chapter5ConfData:#incbin "dmp/Chapter5_comp.dmp"ALIGN 4Chapter6ConfData:#incbin "dmp/Chapter6_comp.dmp"ALIGN 4PrologueConfData:#incbin "dmp/Prologue_comp.dmp"ALIGN 4UpdatedVillageConfData:#incbin "dmp/UpdatedVillage_comp.dmp"
+ALIGN 4Chapter1ObjData:#incbin "dmp/Chapter1.dmp"ALIGN 4Chapter1PalData:#incbin "dmp/Chapter1_pal.dmp"ALIGN 4Chapter11AObjData:#incbin "dmp/Chapter11A.dmp"ALIGN 4Chapter11APalData:#incbin "dmp/Chapter11A_pal.dmp"ALIGN 4Chapter12ObjData:#incbin "dmp/Chapter12.dmp"ALIGN 4Chapter12PalData:#incbin "dmp/Chapter12_pal.dmp"ALIGN 4Chapter12xObjData:#incbin "dmp/Chapter12x.dmp"ALIGN 4Chapter12xPalData:#incbin "dmp/Chapter12x_pal.dmp"ALIGN 4Chapter2ObjData:#incbin "dmp/Chapter2.dmp"ALIGN 4Chapter2PalData:#incbin "dmp/Chapter2_pal.dmp"ALIGN 4Chapter3ObjData:#incbin "dmp/Chapter3.dmp"ALIGN 4Chapter3PalData:#incbin "dmp/Chapter3_pal.dmp"ALIGN 4Chapter4ObjData:#incbin "dmp/Chapter4.dmp"ALIGN 4Chapter4PalData:#incbin "dmp/Chapter4_pal.dmp"ALIGN 4Chapter5ObjData:#incbin "dmp/Chapter5.dmp"ALIGN 4Chapter5PalData:#incbin "dmp/Chapter5_pal.dmp"ALIGN 4Chapter6ObjData:#incbin "dmp/Chapter6.dmp"ALIGN 4Chapter6PalData:#incbin "dmp/Chapter6_pal.dmp"ALIGN 4Chapter8ObjData:#incbin "dmp/Chapter8.dmp"ALIGN 4Chapter8PalData:#incbin "dmp/Chapter8_pal.dmp"ALIGN 4Chapter8xObjData:#incbin "dmp/Chapter8x.dmp"ALIGN 4Chapter8xPalData:#incbin "dmp/Chapter8x_pal.dmp"ALIGN 4Chapter9ObjData:#incbin "dmp/Chapter9.dmp"ALIGN 4Chapter9PalData:#incbin "dmp/Chapter9_pal.dmp"ALIGN 4PrologueObjData:#incbin "dmp/Prologue.dmp"ALIGN 4ProloguePalData:#incbin "dmp/Prologue_pal.dmp"ALIGN 4UpdatedVillageObjData:#incbin "dmp/UpdatedVillage.dmp"ALIGN 4UpdatedVillagePalData:#incbin "dmp/UpdatedVillage_pal.dmp"ALIGN 4Chapter1ConfData:#incbin "dmp/Chapter1_comp.dmp"ALIGN 4Chapter11AConfData:#incbin "dmp/Chapter11A_comp.dmp"ALIGN 4Chapter12ConfData:#incbin "dmp/Chapter12_comp.dmp"ALIGN 4Chapter12xConfData:#incbin "dmp/Chapter12x_comp.dmp"ALIGN 4Chapter2ConfData:#incbin "dmp/Chapter2_comp.dmp"ALIGN 4Chapter3ConfData:#incbin "dmp/Chapter3_comp.dmp"ALIGN 4Chapter4ConfData:#incbin "dmp/Chapter4_comp.dmp"ALIGN 4Chapter5ConfData:#incbin "dmp/Chapter5_comp.dmp"ALIGN 4Chapter6ConfData:#incbin "dmp/Chapter6_comp.dmp"ALIGN 4Chapter8ConfData:#incbin "dmp/Chapter8_comp.dmp"ALIGN 4Chapter8xConfData:#incbin "dmp/Chapter8x_comp.dmp"ALIGN 4Chapter9ConfData:#incbin "dmp/Chapter9_comp.dmp"ALIGN 4PrologueConfData:#incbin "dmp/Prologue_comp.dmp"ALIGN 4UpdatedVillageConfData:#incbin "dmp/UpdatedVillage_comp.dmp"

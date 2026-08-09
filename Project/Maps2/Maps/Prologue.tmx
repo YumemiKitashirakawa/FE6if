@@ -9,7 +9,7 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="PrologueCh"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x6"/>
+   <property name="MapChangesID" value="PrologueTileChanges"/>
    <property name="MapID" value="PrologueMap"/>
    <property name="ObjectType" value="PrologueObj"/>
    <property name="PaletteID" value="ProloguePal"/>

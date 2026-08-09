@@ -1,9 +1,17 @@
 //Generated. Do not edit!
 Chapter1TileChanges
+Chapter10ATileChanges
+Chapter11ATileChanges
+Chapter11BTileChanges
+Chapter12TileChanges
+Chapter12xTileChanges
 Chapter2TileChanges
 Chapter3TileChanges
 Chapter4TileChanges
 Chapter5TileChanges
 Chapter6TileChanges
 Chapter7TileChanges
+Chapter8TileChanges
+Chapter8xTileChanges
+Chapter9TileChanges
 PrologueTileChanges

@@ -38,6 +38,12 @@
 .avoid 137
 Chapter1Obj
 Chapter1Pal
+Chapter11AObj
+Chapter11APal
+Chapter12Obj
+Chapter12Pal
+Chapter12xObj
+Chapter12xPal
 Chapter2Obj
 Chapter2Pal
 Chapter3Obj
@@ -48,6 +54,12 @@ Chapter5Obj
 Chapter5Pal
 Chapter6Obj
 Chapter6Pal
+Chapter8Obj
+Chapter8Pal
+Chapter8xObj
+Chapter8xPal
+Chapter9Obj
+Chapter9Pal
 PrologueObj
 ProloguePal
 UpdatedVillageObj

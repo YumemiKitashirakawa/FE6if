@@ -9,7 +9,7 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="Chapter2Ch"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0xC"/>
+   <property name="MapChangesID" value="Chapter2TileChanges"/>
    <property name="MapID" value="Chapter2Map"/>
    <property name="ObjectType" value="Chapter2Obj"/>
    <property name="PaletteID" value="Chapter2Pal"/>

@@ -2,8 +2,8 @@
 
 #include eastdlib.event
 
-SetChapterData(Chapter6Ch,Chapter6Obj,0,Chapter6Pal,Chapter6Conf,Chapter6Map,Map,0,0,0x20)
-MapChangesPointerTable(0x20, MapChanges)
+SetChapterData(Chapter6Ch,Chapter6Obj,0,Chapter6Pal,Chapter6Conf,Chapter6Map,Map,0,0,Chapter6TileChanges)
+MapChangesPointerTable(Chapter6TileChanges, MapChanges)
 Map:
 #incbin "Chapter6_data.dmp"
 

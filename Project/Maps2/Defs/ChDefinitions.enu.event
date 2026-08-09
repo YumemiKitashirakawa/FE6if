@@ -6,3 +6,11 @@
 #define Chapter5Ch 0x5
 #define Chapter6Ch 0x6
 #define Chapter7Ch 0x7
+#define Chapter8Ch 0x8
+#define Chapter8xCh 0x9
+#define Chapter9Ch 0xA
+#define Chapter10ACh 0xB
+#define Chapter11ACh 0xC
+#define Chapter11BCh 0xD
+#define Chapter12Ch 0xE
+#define Chapter12xCh 0xF

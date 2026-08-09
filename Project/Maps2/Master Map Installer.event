@@ -33,3 +33,27 @@
 {
 #include "Maps\Chapter7.event"
 }
+{
+#include "Maps\Chapter8.event"
+}
+{
+#include "Maps\Chapter8x.event"
+}
+{
+#include "Maps\Chapter9.event"
+}
+{
+#include "Maps\Chapter10A.event"
+}
+{
+#include "Maps\Chapter11A.event"
+}
+{
+#include "Maps\Chapter11B.event"
+}
+{
+#include "Maps\Chapter12.event"
+}
+{
+#include "Maps\Chapter12x.event"
+}

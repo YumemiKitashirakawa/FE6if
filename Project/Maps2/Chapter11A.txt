@@ -1,0 +1,5 @@
+#define ObjTypePalettePointerTable(aId, apointer) "PUSH; ORG ObjTypePalettePLIST+(0x4 * aId); POIN apointer; POP"
+ALIGN 4
+Chapter11APal:
+#incbin "Chapter11A_pal.dmp"
+ObjTypePalettePointerTable(Chapter11APal,Chapter11APalData)

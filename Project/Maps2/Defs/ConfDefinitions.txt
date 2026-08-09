@@ -13,10 +13,16 @@
 .avoid 123
 .avoid 138
 Chapter1Conf
+Chapter11AConf
+Chapter12Conf
+Chapter12xConf
 Chapter2Conf
 Chapter3Conf
 Chapter4Conf
 Chapter5Conf
 Chapter6Conf
+Chapter8Conf
+Chapter8xConf
+Chapter9Conf
 PrologueConf
 UpdatedVillageConf
