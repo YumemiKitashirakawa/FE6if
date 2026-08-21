@@ -33,7 +33,6 @@
 	#include "Events/MasterEventInstaller.event"
 
     //Maps
-    //#include "Maps2/Master Map Installer.event"
 	#include "Maps2/SplitPList.event"
 	
 	
