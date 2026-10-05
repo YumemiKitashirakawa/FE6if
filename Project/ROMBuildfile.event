@@ -20,6 +20,7 @@
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+	#include "Graphics/SpellAnimation/CSA_Creator/Master Spell Animation Installer.event"
 	#include "Graphics/MasterGraphicsInstaller.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 	#include "MusicFolder/MusicInstaller.event"

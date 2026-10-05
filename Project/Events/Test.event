@@ -24,12 +24,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-
+House(0x10,Test,12,3)
 Seize(22,4)
 
 END_MAIN
 
 MiscBasedEvents:
+AREA 0xB EteSech [12,0] [26,9]
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -43,28 +44,87 @@ ALIGN 4
 
 PlayerUnits:
 
- UNIT Roy EirikaLord Roy Level(20,Ally,True) [1,0] 0x0 0x0 0x1 REDA1R0 [Rapier,Vulnerary,MetissTome] NoAI
+ UNIT Roy EirikaLord Roy Level(1,Ally,False) [1,0] 0x0 0x0 0x1 REDA1R0 [IronSword,Vulnerary,MetissTome] NoAI
 
  UNIT Marcus Paladin Roy Level(1,Ally,False) [2,0] 0x0 0x0 0x1 REDA2R0 [SilverLance,SteelSword] NoAI
+ UNIT 0x1E 0x16 Roy Level(20,Ally,False) [3,0] 0x0 0x0 0x1 REDA3R0 [IronSword] NoAI
+ UNIT 0x1D 0x26 Roy Level(20,Ally,False) [4,0] 0x0 0x0 0x1 REDA4R0 [Fire] NoAI
  UNIT
 EnemyUnits:
  
- UNIT Gilliam Knight Gilliam Level(5,Enemy,True) [22,4] 0x0 0x0 0x1 REDA22R4 [SilverLance] NoAI
+ UNIT 0x46 Knight 0x46 Level(5,Enemy,True) [22,4] 0x0 0x0 0x1 REDA22R4 [SilverLance] NoMoveAI
+ 
+ UNIT 0x6E 0x3F 0x46 Level(2,Enemy,True) [9,5] 0x0 0x0 0x0 REDA9R5 [IronAxe] NoAI
+ UNIT 0x6E 0x3F 0x46 Level(2,Enemy,True) [4,3] 0x0 0x0 0x0 REDA4R3 [IronAxe] NoAI
+ UNIT 0x6E 0x3F 0x46 Level(2,Enemy,True) [1,6] 0x0 0x0 0x0 REDA1R6 [IronAxe] NoAI
+ UNIT 0x6E 0x4E 0x46 Level(2,Enemy,True) [17,7] 0x0 0x0 0x0 REDA17R7 [SlimLance] NoAI
+ UNIT 0x6E 0x4E 0x46 Level(2,Enemy,True) [19,5] 0x0 0x0 0x0 REDA19R5 [SlimLance] NoAI
+ UNIT 0x6E 0x19 0x46 Level(2,Enemy,True) [18,6] 0x0 0x0 0x0 REDA18R6 [IronBow] NoAI
  UNIT
+AlenLance:
+ UNIT 0x47 Cavalier 0x46 Level(3,Enemy,False) [24,9] 0x0 0x0 1 REDAsAlen [IronLance] NoAI
+ UNIT 0x48 Cavalier 0x46 Level(3,Enemy,False) [26,9] 0x0 0x0 1 REDAsLance [Javelin] NoAI
+ UNIT 0x6E Knight 0x46 Level(3,Enemy,True) [22,4] 0x0 0x0 1 REDAs01 [IronLance] NoAI
+ UNIT 0x6E Knight 0x46 Level(3,Enemy,True) [22,4] 0x0 0x0 1 REDAs02 [SteelLance] NoAI
+ UNIT
+ 
+REDAsAlen:
+REDA [21, 8] 0x0 0x0 0x0 0x0
+
+REDAsLance:
+REDA [22, 8] 0x0 0x0 0x0 0x0
+
+REDAs01:
+REDA [21, 5] 0x0 0x0 0x0 0x0
+
+REDAs02:
+REDA [23, 5] 0x0 0x0 0x0 0x0
+CutsceneUnit1:
+ UNIT Roy EirikaLord Roy Level(1,Ally,False) [9,7] 0x0 0x0 0x0 REDA9R7 [IronSword,Vulnerary,MetissTome] NoAI
+
+ UNIT Marcus Paladin Roy Level(1,Ally,False) [6,7] 0x0 0x0 0x0 REDA6R7 [SilverLance,SteelSword] NoAI
+ UNIT
+ 
 BeginningScene:
-
+LOMA 0x1
+FADU 10
+LOAD1 1 CutsceneUnit1
+ENUN
+CAMERA [7,7]
+MOVE 4 0x1 [7,7]
+ENUN
+Text(PrologueStart)
+StartBattle
+MissedAttack(0,1)
+NormalDamage(1,12)
+EndAttack
+FIGHT 0x1 0x2 IronSword False
+FadeOutMusic
+SVAL s1 23
+SET_HP Roy
+Text(AfterBattleMarcus)
+LOMA 0x0
 LOAD1 1 PlayerUnits
-
 ENUN
 
-CGText(PrologueStart)
-
-
-LOAD1 0 EnemyUnits
+LOAD1 1 EnemyUnits
 
 ENUN
 
 ENDA
+Test:
+GiveItem(0x12,0xFFFF)
+TILECHANGE 0x0
+FADI 16
+CLEAN
+FADU 16
+NoFade
+ENDA
+
+EteSech:
+SurpriseAttack(AlenLance,23,7,0xB)
+
+
 
 EndingScene:
 MoveToChapter(0x1)

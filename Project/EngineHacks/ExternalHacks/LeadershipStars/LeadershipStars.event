@@ -5,10 +5,7 @@
 
 // Leadership Stars FE8. Hack by Zeta/Gilgamesh
 // Free to use/modify
-#ifndef IconTable
-	#define IconTable $5926F4
-#endif
-#define SetIcon(ID) "ORG IconTable + ID * 128"
+#define ItemIcon(id) "ORG ItemIconSheet + (128 * id)"
 
 AllyStarHitBonus:
 BYTE 5
@@ -45,8 +42,8 @@ BYTE Tirado 1
 BYTE 0x0 0x0 //delimiter
 
 PUSH
-SetIcon(0xCA) // Change this if you want, but remember to also change it in the MSS code and StatusScreenPlayer/Enemy.s (icon 0xCA is unused by default)
-#incbin "StarIcon.dmp"
+ItemIcon(225) // Change this if you want, but remember to also change it in the MSS code and StatusScreenPlayer/Enemy.s (icon 0xCA is unused by default)
+#incext png2dmp "StarIcon.png"
 POP
 
 ALIGN 4

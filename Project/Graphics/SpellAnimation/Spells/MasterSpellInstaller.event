@@ -1,0 +1,3 @@
+#define BindingBlade_index 0x3A
+#include "Binding Blade/BindingBlade.event"
+

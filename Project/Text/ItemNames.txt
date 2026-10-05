@@ -1,0 +1,17 @@
+## MasterSealName
+Master Seal[X]
+
+## MasterSealDesc
+For unpromoted units Lv. 10 and up.[X]
+
+## MasterCrownName
+*{Master Crown}[X]
+
+## MasterCrownDesc
+For promoted units Lv. 10 and up.[X]
+
+## BindingBladeName
+*{Binding Blade}[X]
+
+## BindingBladeDesc
+A legendary blade wielded by Hartmut.[X]

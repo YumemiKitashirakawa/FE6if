@@ -68,3 +68,33 @@ PUSH
 ORG $2c150
 SHORT $E011
 POP
+
+//Base
+#include "Base/goto_base_install.event"
+
+//Map Palette Switch
+#incbin "change_map_palette.bin"
+#incbin "change_map_palette2.bin"
+
+#include "MMB/Installers/MMBInstallerHatsuru.event"
+#include "MMB/Installers/MMBWindowPalettes/MMBWindowPalette.event"
+#include "DynamicPortraits/DynamicPortraitsInstaller.event"
+
+//Minimum Hit Rate
+PUSH
+ORG $2AC84 
+BYTE 1
+ORG $2AC88
+BYTE 1
+POP
+
+//Maximum Hit Rate
+PUSH
+ORG $2AC78
+BYTE 99
+ORG $2AC7C
+BYTE 99
+POP
+
+//Save per Turn
+#include "SPT/Installer.event"

@@ -57,7 +57,7 @@ bne End
 @write the damage, since we're skipping ahead
 mov     r2, #4
 ldrsh   r3, [r7, r2]
-asr     r3, #1 @damage halved
+mov r8, r8 @damage halved
 strh    r3, [r7, #4]
 
 @ lsl     r3, #0x18
@@ -81,7 +81,7 @@ strb    r0,[r6,#4] @save the thing
 mov r1, #0x38
 mov r2, sp
 ldr r0, [r2,r1] @location of number of rounds on the stack... hopefully
-add r0, #4
+add r0, #2
 str r0, [r2,r1]
 
 @HERE'S THE TRICKY BIT: UPDATE A NEW ROUND OF BATTLE AND SET THE OFFENSIVE SKILL FLAG
@@ -92,7 +92,7 @@ mov r0, #0
 str     r0,[r4]                @ 0802B43A 6018 
 ldrb    r0, AstraID
 strb    r0,[r4,#4] @save the thing
-mov     r0, #4 @number of extra attacks
+mov     r0, #2 @number of extra attacks
 strb    r0,[r4,#6]
 b End
 
@@ -102,7 +102,7 @@ AlreadyAstra:
 @write the damage, since we're skipping ahead
 mov     r2, #4
 ldrsh   r3, [r7, r2]
-asr     r3, #1 @damage halved
+mov r8, r8 @damage halved
 strh    r3, [r7, #4]
 
 ldrb    r0,[r6,#6] @attacks remaining

@@ -1,0 +1,18 @@
+#include "expandedlist.txt"
+ItemIconSheet:
+FILL (256 * 128) //fills a space that can fit 256 item icons (128 bytes each) with 0, and moves the current offset ahead that far
+PUSH
+ORG ItemIconSheet
+#incext png2dmp "Icons/iconsheet.png"
+POP
+
+#define ItemIcon(id) "ORG ItemIconSheet + (128 * id)" //sets current offset to position in item icon table for the given id
+PUSH
+ItemIcon(224)
+#incext png2dmp "Icons/BindingBlade.png"
+POP
+
+PUSH
+ItemIcon(99)
+#incext png2dmp "Icons/Master_Crown.png"
+POP

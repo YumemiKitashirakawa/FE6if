@@ -1,5 +1,7 @@
 #include "Portraits/PortraitsInstaller.event"
 #include "PortraitHeight/PortraitHeight.event"
-#include "Tileset/TilesetInstaller.event"
 #include "MapSprite/Installer.event"
 #include "Animations/Master Animation Installer.event"
+#include "Items/installer.event"
+//#include "Palettes/Palette Setup.event"
+#include "SpellAnimation/Spells/MasterSpellInstaller.event"

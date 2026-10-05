@@ -9,3 +9,388 @@ Upstanding and idealistic.[X]
 
 ## MarcusName 
 Marcus[X]
+
+## MarcusDesc
+A veteran paladin serving[N]
+Pherae. Roy's instructor in combat.[X]
+
+## BorsName
+Bors[X]
+
+## BorsDesc
+A knight serving Ostia.[N]
+Loyal and dutiful.[X]
+
+## AlenName
+Allen[X]
+
+## AlenDesc
+A knight serving Pherae.[N]
+Passionate and hot-headed.[X]
+
+## LanceName
+Lance[X]
+
+## LanceDesc
+A knight serving Pherae.[N]
+Calm and cool-headed.[X]
+
+## WoltName
+Wolt[X]
+
+## WoltDesc
+An archer serving Pherae.[N]
+Was raised like a brother to Roy.[X]
+
+##Wolt2Desc
+Was like a brother to Roy.[N]
+Disaster has befallen him.[X]
+
+## ElenName
+Elen[X]
+
+## ElenDesc
+A young cleric serving[N]
+Guinivere. Serene and gracious.[X]
+
+## DieckName
+Dieck[X]
+
+## DieckDesc
+Head of the mercenaries hired[N]
+by Pherae. A former gladiator.[X]
+
+## ShannaName
+Shanna[X]
+
+##ShannaDesc
+Pegasus knight in training.[N]
+Traveling the world to hone her skills.[X]
+
+## LotName
+Lot[X]
+
+## LotDesc
+A young man fighting alongside[N]
+Dieck. Calculating and cautious.[X]
+
+## WadeName
+Wade[X]
+
+## WadeDesc
+A young man fighting alongside[N]
+Dieck. Brash and impulsive.[X]
+
+## ChadName
+Chad[X]
+
+## ChadDesc
+A young thief from an orphanage.[N]
+Determined and skillful.[X]
+
+## LughName
+Lugh[X]
+
+## LughDesc
+A young mage from an orphanage.[N]
+Kind-hearted and protective.[X]
+
+## ClarineName
+Clarine[X]
+
+## ClarineDesc
+A self-centered lady of Etruria.[N]
+Klein's younger sister.[X]
+
+## RutgerName
+Rutger[X]
+
+## RutgerDesc
+A young man seeking revenge[N]
+on Bern. Silent, but empathetic.[X]
+
+## DorothyName
+Dorothy[X]
+## DorothyDesc
+A member of the Elimine Church[N]
+and bodyguard to the priest Saul.[X]
+
+## SaulName
+Saul[X]
+
+## SaulDesc
+A priest of St. Elimine who can't[N]
+refrain from flirting with beautiful women.[X]
+
+## CathName
+Cath[X]
+
+## CathDesc
+A young thief who steals[N]
+only from the rich.[X]
+
+## SueName
+Sue[X]
+
+## SueDesc
+The granddaughter of the[N]
+famed Silver Wolf of Sacae.[X]
+
+## AlName
+Al[X]
+
+## AlDesc
+placeholder[X]
+
+## NoahName
+Noah[X]
+
+## NoahDesc
+A member of the Ilian mercenaries[N]
+under General Zelot. Lacks social skills.[X]
+
+## TrecName
+Trec[X]
+
+## TrecDesc
+A member of the Ilian mercenaries[N]
+under General Zelot. Loves to sleep.[X]
+
+## ZelotName
+Zelot[X]
+
+## ZelotDesc
+The lord of Edessa. Leads[N]
+the Ilian mercenary knights.[X]
+
+## AstolfoName
+Astolfo[X]
+
+## AstolfoDesc
+A spy serving Ostia.[N]
+Surrounded in mystery.[X]
+
+## MerediaName
+Meredia[X]
+
+## MerediaDesc
+A dracoknight in service of Ostia.[N]
+Hails from the northern lands of Bern.[X]
+
+## OgierName
+Ogier[X]
+
+## OgierDesc
+A mercenary hired[N]
+into Ostia's service.[X]
+
+## BartheName
+Barthe[X]
+
+## BartheDesc
+A knight serving Ostia.[N]
+Humorless and severe.[X]
+
+## GwendolynName
+*{Gwendolyn}[X]
+
+## GwendolynDesc
+A knight serving Ostia.[N]
+Bors' younger sister.[X]
+
+## LilinaName
+Lilina[X]
+
+## LilinaDesc
+Daughter of Marquess Ostia.[N]
+Gentle and kind-hearted.[X]
+
+## FirName
+Fir[X]
+
+## FirDesc
+A girl traveling around[N]
+Elibe to hone her sword skills.[X]
+
+## SinName
+Sin[X]
+
+## SinDesc
+Survivor of a Sacaen clan.[N]
+Loyal to the Silver Wolf.[X]
+
+## GonzalesName
+Gonzales[X]
+
+## GonzalesDesc
+Brigand from the Western Isles.[N]
+Uneducated but compassionate.[X]
+
+## GeeseName
+Geese[X]
+
+## GeeseDesc
+A pirate from the Western Isles[N]
+seeking vengeance for his crew.[X]
+
+## LarumName
+Larum[X]
+
+## LarumDesc
+A young dancer helping the[N]
+resistance on the Western Isles.[X]
+
+## ElffinName
+Elffin[X]
+
+## ElffinDesc
+Mysterious bard who supports the[N]
+resistance on the Western Isles.[X]
+
+## EchidnaName
+Echidna[X]
+
+## EchidnaDesc
+The leader of the resistance[N]
+on the Western Isles.[X]
+
+## TheaName
+Thea[X]
+
+## TheaDesc
+Leader of a pegasus[N]
+knight unit from Ilia.[X]
+
+## KleinName
+Klein[X]
+
+## KleinDesc
+An Etrurian commander and noble.[N]
+Clarine's older brother.[X]
+
+## BartreName
+Bartre[X]
+
+## BartreDesc
+A warrior who cares[N]
+deeply for his daughter.[X]
+
+## RaighName
+Raigh[X]
+
+## RaighDesc
+A young shaman from an[N]
+orphanage. Hides his emotions.[X]
+
+## MeladyName
+Melady[X]
+
+## MeladyDesc
+The leader of Guinivere's[N]
+personal guard. Ubendingly Loyal.[X]
+
+## PercevalName
+Perceval[X]
+
+## PercevalDesc
+The Knight General of Etruria.[N]
+An imposing man of great potential.[X]
+
+## CeciliaName
+Cecilia[X]
+
+## CeciliaDesc
+The Mage General of Etruria.[N]
+Roy's instructor in tactics.[X]
+
+## SophiaName
+Sophia[X]
+
+## SophiaDesc
+A shaman from Nabata who[N]
+can predict the future.[X]
+
+## IgreneName
+Igrene[X]
+
+## IgreneDesc
+A sniper known as the[N]
+Guardian of Nabata.[X]
+
+## FaeName
+Fae[X]
+
+## FaeDesc
+A young divine dragon from[N]
+Nabata. Childish and naive.[X]
+
+## ZeissName
+Zeiss[X]
+
+## ZeissDesc
+Wyvern rider of Bern.[N]
+Melady's younger brother.[X]
+
+
+## HughName
+Hugh[X]
+
+## HughDesc
+A mage hired by Etruria.[N]
+Desperate for money.[X]
+
+## DouglasName
+Douglas[X]
+
+## DouglasDesc
+The Great General of Etruria.[N]
+A respected veteran.[X]
+
+## GarretName
+Garret[X]
+
+## GarretDesc
+A bandit from the[N]
+Etrurian border.[X]
+
+## NiimeName
+Niime[X]
+
+## NiimeDesc
+The Mountain Hermit. Has devoted[N]
+her life to research and study.[X]
+
+## JunoName
+Juno[X]
+
+## JunoDesc
+A retired squad leader of the[N]
+Ilian pegasus knights. Zelot's wife.[X]
+
+## DayanName
+Dayan[X]
+
+## DayanDesc
+Known as the Silver Wolf.[N]
+Chieftain of the Kutolah clan.[X]
+
+## YoderName
+Yoder[X]
+
+## YoderDesc
+A bishop of the St. Elimine[N]
+Church who supports Roy's cause.[X]
+
+## KarelName
+Karel[X]
+
+## KarelDesc
+The famed Sword Saint.[N]
+Known far and wide.[X]
+
+## AliceName
+Alice[X]
+
+## AliceDesc
+An ordinary woman harboring sacred[N]
+power. In search of something[X]

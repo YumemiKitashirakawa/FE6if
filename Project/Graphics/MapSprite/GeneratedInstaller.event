@@ -6,11 +6,21 @@
  
 /* 
 //First free SMS is 107
-#define Lord 107 
+#define FTrueblade 107 
+#define F_Thief 108 
+#define GrandPaladin 109 
+#define GreatLord 110 
+#define Lord 111 
+#define OldKnight 112 
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
-#define Lord2 127 
+#define FTrueblade2 127 
+#define F_Thief2 128 
+#define GrandPaladin2 129 
+#define GreatLord2 130 
+#define Lord2 131 
+#define OldKnight2 132 
  
 */ 
  
@@ -20,10 +30,20 @@
 //Copy from here 
 PUSH 
  
+SetSMS(FTrueblade, 1, FTrueblade_Data) 
+SetSMS(F_Thief, 1, F_Thief_Data) 
+SetSMS(GrandPaladin, 1, GrandPaladin_Data) 
+SetSMS(GreatLord, 1, GreatLord_Data) 
 SetSMS(Lord, 1, Lord_Data) 
+SetSMS(OldKnight, 1, OldKnight_Data) 
  
  
+SetMMS(FTrueblade2, FTrueblade2_Data, DemonKingAP) 
+SetMMS(F_Thief2, F_Thief2_Data, DemonKingAP) 
+SetMMS(GrandPaladin2, GrandPaladin2_Data, DemonKingAP) 
+SetMMS(GreatLord2, GreatLord2_Data, DemonKingAP) 
 SetMMS(Lord2, Lord2_Data, DemonKingAP) 
+SetMMS(OldKnight2, OldKnight2_Data, DemonKingAP) 
  
 POP 
 //Copy until here 
@@ -33,8 +53,28 @@ POP
 //SMS Image Data 
  
 ALIGN 4 
+FTrueblade_Data: 
+#incbin "dmp/FTrueblade.dmp" 
+ 
+ALIGN 4 
+F_Thief_Data: 
+#incbin "dmp/F_Thief.dmp" 
+ 
+ALIGN 4 
+GrandPaladin_Data: 
+#incbin "dmp/GrandPaladin.dmp" 
+ 
+ALIGN 4 
+GreatLord_Data: 
+#incbin "dmp/GreatLord.dmp" 
+ 
+ALIGN 4 
 Lord_Data: 
 #incbin "dmp/Lord.dmp" 
+ 
+ALIGN 4 
+OldKnight_Data: 
+#incbin "dmp/OldKnight.dmp" 
  
  
  
@@ -42,6 +82,26 @@ Lord_Data:
 //MMS Image Data 
  
 ALIGN 4 
+FTrueblade2_Data: 
+#incbin "dmp/FTrueblade2.dmp" 
+ 
+ALIGN 4 
+F_Thief2_Data: 
+#incbin "dmp/F_Thief2.dmp" 
+ 
+ALIGN 4 
+GrandPaladin2_Data: 
+#incbin "dmp/GrandPaladin2.dmp" 
+ 
+ALIGN 4 
+GreatLord2_Data: 
+#incbin "dmp/GreatLord2.dmp" 
+ 
+ALIGN 4 
 Lord2_Data: 
 #incbin "dmp/Lord2.dmp" 
+ 
+ALIGN 4 
+OldKnight2_Data: 
+#incbin "dmp/OldKnight2.dmp" 
  

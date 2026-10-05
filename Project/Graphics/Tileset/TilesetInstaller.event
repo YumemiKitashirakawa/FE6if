@@ -1,25 +1,31 @@
+
 #include "24x/Installer.event"
 #include "Prologue/Prologue.event"
 #include "Chapter1/Chapter1.event"
 #include "Chapter3/Chapter3.event"
+#include "Chapter5/Chapter5.event"
 #include "Chapter8/Chapter8.event"
 
 
-EventPointerTable(PrologueObjectID,PrologueObject)
-EventPointerTable(ProloguePaletteID,ProloguePalette)
-EventPointerTable(PrologueMapchipConfigID,PrologueMapchipConfig)
+SetTilesetObject(0x1,PrologueObject)
+SetTilesetPalette(0x1,ProloguePalette)
+SetTilesetConfig(0x1,PrologueMapchipConfig)
 
-EventPointerTable(Chapter1ObjectID,Chapter1Object)
-EventPointerTable(Chapter1PaletteID,Chapter1Palette)
-EventPointerTable(Chapter1MapchipConfigID,Chapter1MapchipConfig)
+SetTilesetObject(Chapter1ObjectID,Chapter1Object)
+SetTilesetPalette(Chapter1PaletteID,Chapter1Palette)
+SetTilesetConfig(Chapter1MapchipConfigID,Chapter1MapchipConfig)
 
-EventPointerTable(Chapter3ObjectID,Chapter3Object)
-EventPointerTable(Chapter3PaletteID,Chapter3Palette)
-EventPointerTable(Chapter3MapchipConfigID,Chapter3MapchipConfig)
+SetTilesetObject(Chapter3ObjectID,Chapter3Object)
+SetTilesetPalette(Chapter3PaletteID,Chapter3Palette)
+SetTilesetConfig(Chapter3MapchipConfigID,Chapter3MapchipConfig)
 
-EventPointerTable(Chapter8ObjectID,Chapter8Object)
-EventPointerTable(Chapter8PaletteID,Chapter8Palette)
-EventPointerTable(Chapter8MapchipConfigID,Chapter8MapchipConfig)
+SetTilesetObject(0x2,Chapter5Object)
+SetTilesetPalette(0x19,Chapter5Palette)
+SetTilesetConfig(0x2,Chapter5MapchipConfig)
+
+SetTilesetObject(Chapter8ObjectID,Chapter8Object)
+SetTilesetPalette(Chapter8PaletteID,Chapter8Palette)
+SetTilesetConfig(Chapter8MapchipConfigID,Chapter8MapchipConfig)
 
 
 

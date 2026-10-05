@@ -187,3 +187,8 @@
 #endif
 
 #include "ExternalTables.event"
+#define StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB) "BYTE HPB StrB SklB SpdB DefB ResB LckB MovB ConB MagB 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0"
+
+ALIGN 4
+BindingBladeBoost:
+StatBonus(0, 15, 15, 20, 15, 15, 15, 15, 0, 0)

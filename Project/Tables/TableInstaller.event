@@ -46,6 +46,8 @@
 
 #include "NightmareModules\Misc\PersonalDataEditor.event"
 
+#include "NightmareModules\PromoBranch\PromotionBranchesTable.event"
+
 #include "NightmareModules\Skills\CharacterLevelUpSkillEditor.event"
 
 #include "NightmareModules\Skills\ClassLevelUpSkillEditor.event"
@@ -53,4 +55,6 @@
 #include "NightmareModules\Skills\ClassSkillEditor.event"
 
 #include "NightmareModules\Skills\PersonalSkillEditor.event"
+
+#include "NightmareModules\WTA\WTAbonuses.event"
 

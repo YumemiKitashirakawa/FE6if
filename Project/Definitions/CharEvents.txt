@@ -1,0 +1,2 @@
+#define SurpriseAttack(unitpointer,coord1,coord2,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; CAM1 [coord1,coord2]; LOAD1 0x1 unitpointer; ENUN; GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"
+#define EndEvent "NoFade; ENDA"

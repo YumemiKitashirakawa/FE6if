@@ -122,3 +122,5 @@ a skill when used.[X]
 #include "UnitsNames.txt"
 #include "ChapterNames.txt"
 #include "ChapterText/Prologue.txt"
+#include "ClassNames.txt"
+#include "ItemNames.txt"

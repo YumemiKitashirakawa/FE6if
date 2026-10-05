@@ -6,6 +6,21 @@
 
 #define LordWalk 0x2
 
+#define GreatLordStand 0x3
+
+#define GreatLordWalk 0x3
+
+#define GrandPaladinStand 0x6B
+
+#define GrandPaladinWalk 0x7F
+
+#define F_ThiefStand_Data 0x6C
+
+#define F_ThiefWalk_Data 0x80
+
+#define FTruebladeStand_Data 0x6D
+
+#define FTruebladeWalk_Data 0x81
 ALIGN 4
 
 LordStand_Data:
@@ -14,3 +29,35 @@ LordStand_Data:
 ALIGN 4
 LordWalk_Data: 
 #incbin "Lord/Lord2.dmp"
+
+ALIGN 4 
+GrandPaladinStand_Data: 
+#incbin "dmp/GrandPaladin.dmp" 
+
+ALIGN 4
+GrandPaladinWalk_Data
+#incbin "dmp/GrandPaladin2.dmp"
+ALIGN 4
+
+GreatLordStand_Data:
+#incbin "dmp/GreatLord.dmp"
+
+ALIGN 4
+GreatLordWalk_Data: 
+#incbin "dmp/GreatLord2.dmp
+ 
+ALIGN 4
+F_ThiefStand_Data:
+#incbin "dmp/F_Thief.dmp"
+
+ALIGN 4
+F_ThiefWalk_Data:
+#incbin "dmp/F_Thief2.dmp"
+
+ALIGN 4
+FTruebladeStand_Data:
+#incbin "dmp/FTrueblade.dmp"
+
+ALIGN 4
+FTruebladeWalk_Data:
+#incbin "dmp/FTrueblade2.dmp"

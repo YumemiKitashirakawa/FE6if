@@ -71,7 +71,7 @@ second strike negates defenses.[N]
 (Skill/2 % activation)[X]
 
 ## SD_Astra
-Astra: 5 attacks at half damage.[N]
+Astra: 3 attacks.[N]
 (Skill % activation)[X]
 
 ## SD_Discipline
@@ -136,7 +136,7 @@ Armored Blow: +10 Def[N]
 when initiating battle.[X]
 
 ## SD_Vantage
-Vantage: If HP < 50%,[N]
+Vantage: Always[N]
 strike first when attacked.[X]
 
 ## SD_Desperation
@@ -271,7 +271,7 @@ Nullify: Unit is protected[N]
 from all effective attacks.[X]
 
 ## SD_Paragon
-Paragon: Experience gain[N]
+Elite: Experience gain[N]
 is doubled.[X]
 
 ## SD_Veteran

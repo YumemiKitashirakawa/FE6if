@@ -1,0 +1,108 @@
+// More generic minimugs patch 1
+PUSH
+ORG 0x5F6C
+BYTE $00 $B5 $FF $21 $08 $40 $C0 $00 $02 $49 $40 $18 $00 $68 $02 $BC $08 $47 $C0 $46
+POIN GenericMinimugTable
+POP
+
+// More generic minimugs patch 2
+PUSH
+ORG 0x5F9C
+BYTE $00 $B5 $FF $22 $10 $40 $C0 $00 $05 $4A $80 $18 $40 $68 $49 $01 $20 $22 $02 $4B $9E $46 $00 $F8 $01 $BC $00 $47 $B8 $0D $00 $08
+POIN GenericMinimugTable
+POP
+
+#define SetGenericMinimugEntry(id,gfx,pal) "PUSH; ORG (GenericMinimugTable+(8*id)); POIN gfx pal; POP"
+
+ALIGN 4
+GenericMinimugTable:
+FILL 8*256
+
+SetGenericMinimugEntry(0x0,0x599D34,0x599F34)
+SetGenericMinimugEntry(0x1,0x599B34,0x599F54)
+SetGenericMinimugEntry(0x2,0x599734,0x599F74)
+SetGenericMinimugEntry(0x3,0x599734,0x599F54)
+SetGenericMinimugEntry(0x4,0x599D34,0x599F54)
+SetGenericMinimugEntry(0x5,0x599934,0x599F74)
+SetGenericMinimugEntry(0x6,0x599934,0x599F54)
+SetGenericMinimugEntry(0x7,0x599D34,0x599F34)
+
+ALIGN 4
+GenericMinimug00Data:
+#incbin "DMPs/Generic_Enemy_Portrait00.dmp"
+
+ALIGN 4
+GenericMinimug00Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait00.png" --palette-only
+
+SetGenericMinimugEntry(0x0,GenericMinimug00Data,GenericMinimug00Palette)
+
+ALIGN 4
+GenericMinimug01Data:
+#incbin "DMPs/Generic_Enemy_Portrait01.dmp"
+
+ALIGN 4
+GenericMinimug01Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait01.png" --palette-only
+
+SetGenericMinimugEntry(0x1,GenericMinimug01Data,GenericMinimug01Palette)
+
+ALIGN 4
+GenericMinimug02Data:
+#incbin "DMPs/Generic_Enemy_Portrait02.dmp"
+
+ALIGN 4
+GenericMinimug02Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait02.png" --palette-only
+
+SetGenericMinimugEntry(0x2,GenericMinimug02Data,GenericMinimug02Palette)
+
+ALIGN 4
+GenericMinimug03Data:
+#incbin "DMPs/Generic_Enemy_Portrait03.dmp"
+
+ALIGN 4
+GenericMinimug03Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait03.png" --palette-only
+
+SetGenericMinimugEntry(0x3,GenericMinimug03Data,GenericMinimug03Palette)
+
+ALIGN 4
+GenericMinimug04Data:
+#incbin "DMPs/Generic_Enemy_Portrait04.dmp"
+
+ALIGN 4
+GenericMinimug04Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait04.png" --palette-only
+
+SetGenericMinimugEntry(0x4,GenericMinimug04Data,GenericMinimug04Palette)
+
+ALIGN 4
+GenericMinimug05Data:
+#incbin "DMPs/Generic_Enemy_Portrait05.dmp"
+
+ALIGN 4
+GenericMinimug05Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait05.png" --palette-only
+
+SetGenericMinimugEntry(0x5,GenericMinimug05Data,GenericMinimug05Palette)
+
+ALIGN 4
+GenericMinimug06Data:
+#incbin "DMPs/Generic_Enemy_Portrait06.dmp"
+
+ALIGN 4
+GenericMinimug06Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait06.png" --palette-only
+
+SetGenericMinimugEntry(0x6,GenericMinimug06Data,GenericMinimug06Palette)
+
+ALIGN 4
+GenericMinimug07Data:
+#incbin "DMPs/Generic_Enemy_Portrait07.dmp"
+
+ALIGN 4
+GenericMinimug07Palette:
+#incext Png2Dmp "Generic_Enemy_Portrait07.png" --palette-only
+
+SetGenericMinimugEntry(0x7,GenericMinimug07Data,GenericMinimug07Palette)

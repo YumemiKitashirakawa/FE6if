@@ -1,7 +1,289 @@
+#include "Generics.event"
 #include "Tools/Tool Helpers.txt"
 //this file defines the macro:
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
-
-Roy_mug:
+#define Roy_portrait 0x2
+Roy_data:
 #incext PortraitFormatter "Roy.png"
-setMugEntry(0x2, Roy_mug, 2, 6, 3, 4)
+setMugEntry(Roy_portrait, Roy_data, 2, 6, 3, 4)
+
+#define Marcus_portrait 0x4
+Marcus_data:
+#incext PortraitFormatter "Marcus.png"
+setMugEntry(Marcus_portrait, Marcus_data, 2, 5, 2, 3)
+
+#define Bors_portrait 0x5
+Bors_data:
+#incext PortraitFormatter "Bors.png"
+setMugEntry(Bors_portrait, Bors_data, 2, 4, 3, 2)
+
+#define Alen_portrait 0x6
+Alen_data:
+#incext PortraitFormatter "Alen.png"
+setMugEntry(Alen_portrait, Alen_data, 2, 5, 3, 3)
+
+#define Lance_portrait 0x7
+Lance_data:
+#incext PortraitFormatter "Lance.png"
+setMugEntry(Lance_portrait, Lance_data, 2, 5, 3, 3)
+
+#define Wolt_portrait 0x8
+Wolt_data:
+#incext PortraitFormatter "Wolt.png"
+setMugEntry(Wolt_portrait, Wolt_data, 2, 6, 3, 4)
+
+#define Elen_portrait 0x9
+Elen_data:
+#incext PortraitFormatter "Elen.png"
+setMugEntry(Elen_portrait, Elen_data, 2, 6, 3, 4)
+
+#define Shanna_portrait 0x0A
+Shanna_data:
+#incext PortraitFormatter "Shanna.png"
+setMugEntry(Shanna_portrait, Shanna_data, 2, 6, 3, 4)
+
+#define Dieck_portrait 0x0B
+Dieck_data:
+#incext PortraitFormatter "Dieck.png"
+setMugEntry(Dieck_portrait, Dieck_data, 2, 5, 2, 3)
+
+#define Lot_portrait 0x0C
+Lot_data:
+#incext PortraitFormatter "Lot.png"
+setMugEntry(Lot_portrait, Lot_data, 2, 5, 3, 3)
+
+#define Wade_portrait 0x0D
+Wade_data:
+#incext PortraitFormatter "Wade.png"
+setMugEntry(Wade_portrait, Wade_data, 2, 5, 2, 3)
+
+#define Chad_portrait 0x0E
+Chad_data:
+#incext PortraitFormatter "Chad.png"
+setMugEntry(Chad_portrait, Chad_data, 2, 6, 3, 4)
+
+#define Lugh_portrait 0x0F
+Lugh_data:
+#incext PortraitFormatter "Lugh.png"
+setMugEntry(Lugh_portrait, Lugh_data, 2, 6, 3, 4)
+
+#define Clarine_portrait 0x10
+Clarine_data:
+#incext PortraitFormatter "Clarine.png"
+setMugEntry(Clarine_portrait, Clarine_data, 2, 6, 3, 4)
+
+#define Rutger_portrait 0x39
+Rutger_data:
+#incext PortraitFormatter "Rutger.png"
+setMugEntry(Rutger_portrait, Rutger_data, 2, 5, 2, 3)
+
+#define Dorothy_portrait 0x11
+Dorothy_data:
+#incext PortraitFormatter "Dorothy.png"
+setMugEntry(Dorothy_portrait, Dorothy_data, 2, 5, 3, 3)
+
+#define Saul_portrait 0x12
+Saul_data:
+#incext PortraitFormatter "Saul.png"
+setMugEntry(Saul_portrait, Saul_data, 2, 5, 3, 3)
+
+#define Cath_portrait 0x13
+Cath_data:
+#incext PortraitFormatter "Cath.png"
+setMugEntry(Cath_portrait, Cath_data, 2, 6, 3, 4)
+
+#define Sue_portrait 0x14
+Sue_data:
+#incext PortraitFormatter "Sue.png"
+setMugEntry(Sue_portrait, Sue_data, 2, 5, 3, 3)
+
+#define Al_portrait 0x15
+Al_data:
+#incext PortraitFormatter "Al.png"
+setMugEntry(Al_portrait, Al_data, 2, 6, 3, 4)
+
+#define Noah_portrait 0x16
+Noah_data:
+#incext PortraitFormatter "Noah.png"
+setMugEntry(Noah_portrait, Noah_data, 2, 5, 3, 3)
+
+#define Trec_portrait 0x17
+Trec_data:
+#incext PortraitFormatter "Trec.png"
+setMugEntry(Trec_portrait, Trec_data, 2, 5, 3, 3)
+
+#define Zelot_portrait 0x18
+Zelot_data:
+#incext PortraitFormatter "Zelot.png"
+setMugEntry(Zelot_portrait, Zelot_data, 2, 5, 3, 3)
+
+#define Astolfo_portrait 0x19
+Astolfo_data:
+#incext PortraitFormatter "Astolfo.png"
+setMugEntry(Astolfo_portrait, Astolfo_data, 2, 5, 2, 3)
+
+#define Meredia_portrait 0x1A
+Meredia_data:
+#incext PortraitFormatter "Meredia.png"
+setMugEntry(Meredia_portrait, Meredia_data, 2, 6, 3, 4)
+
+#define Ogier_portrait 0x1B
+Ogier_data:
+#incext PortraitFormatter "Ogier.png"
+setMugEntry(Ogier_portrait, Ogier_data, 2, 6, 3, 4)
+
+#define Barthe_portrait 0x1C
+Barthe_data:
+#incext PortraitFormatter "Barthe.png"
+setMugEntry(Barthe_portrait, Barthe_data, 2, 4, 2, 2)
+
+#define Gwendolyn_portrait 0x1D
+Gwendolyn_data:
+#incext PortraitFormatter "Gwendolyn.png"
+setMugEntry(Gwendolyn_portrait, Gwendolyn_data, 2, 5, 3, 4)
+
+#define Lilina_portrait 0x1E
+Lilina_data:
+#incext PortraitFormatter "Lilina.png"
+setMugEntry(Lilina_portrait, Lilina_data, 2, 6, 3, 4)
+
+#define Fir_portrait 0x1F
+Fir_data:
+#incext PortraitFormatter "Fir.png"
+setMugEntry(Fir_portrait, Fir_data, 2, 6, 3, 4)
+
+#define FirPromo_portrait 0xAD
+FirPromo_data:
+#incext PortraitFormatter "FirPromo.png"
+setMugEntry(FirPromo_portrait, FirPromo_data, 2, 6, 3, 4)
+
+#define Sin_portrait 0x20
+Sin_data:
+#incext PortraitFormatter "Sin.png"
+setMugEntry(Sin_portrait, Sin_data, 2, 5, 3, 3)
+
+#define Gonzales_portrait 0x21
+Gonzales_data:
+#incext PortraitFormatter "Gonzales.png"
+setMugEntry(Gonzales_portrait, Gonzales_data, 2, 5, 2, 3)
+
+#define Geese_portrait 0x22
+Geese_data:
+#incext PortraitFormatter "Geese.png"
+setMugEntry(Geese_portrait, Geese_data, 2, 5, 3, 3)
+
+#define Larum_portrait 0x23
+Larum_data:
+#incext PortraitFormatter "Larum.png"
+setMugEntry(Larum_portrait, Larum_data, 2, 6, 3, 4)
+
+#define Elffin_portrait 0x24
+Elffin_data:
+#incext PortraitFormatter "Elffin.png"
+setMugEntry(Elffin_portrait, Elffin_data, 2, 5, 2, 3)
+
+#define Echidna_portrait 0x25
+Echidna_data:
+#incext PortraitFormatter "Echidna.png"
+setMugEntry(Echidna_portrait, Echidna_data, 2, 5, 3, 3)
+
+#define Thea_portrait 0x26
+Thea_data:
+#incext PortraitFormatter "Thea.png"
+setMugEntry(Thea_portrait, Thea_data, 2, 5, 3, 4)
+
+#define Klein_portrait 0x27
+Klein_data:
+#incext PortraitFormatter "Klein.png"
+setMugEntry(Klein_portrait, Klein_data, 2, 5, 3, 3)
+
+#define Bartre_portrait 0x28
+Bartre_data:
+#incext PortraitFormatter "Bartre.png"
+setMugEntry(Bartre_portrait, Bartre_data, 2, 5, 2, 2)
+
+#define Raigh_portrait 0x29
+Raigh_data:
+#incext PortraitFormatter "Raigh.png"
+setMugEntry(Raigh_portrait, Raigh_data, 2, 6, 3, 4)
+
+#define Perceval_portrait 0x2A
+Perceval_data:
+#incext PortraitFormatter "Perceval.png"
+setMugEntry(Perceval_portrait, Perceval_data, 2, 5, 2, 3)
+
+#define Cecilia_portrait 0x2B
+Cecilia_data:
+#incext PortraitFormatter "Cecilia.png"
+setMugEntry(Cecilia_portrait, Cecilia_data, 2, 5, 3, 3)
+
+#define Sophia_portrait 0x2C
+Sophia_data:
+#incext PortraitFormatter "Sophia.png"
+setMugEntry(Sophia_portrait, Sophia_data, 2, 6, 3, 4)
+
+#define Igrene_portrait 0x2D
+Igrene_data:
+#incext PortraitFormatter "Igrene.png"
+setMugEntry(Igrene_portrait, Igrene_data, 2, 5, 3, 3)
+
+#define Fae_portrait 0x2E
+Fae_data:
+#incext PortraitFormatter "Fae.png"
+setMugEntry(Fae_portrait, Fae_data, 2, 7, 3, 5)
+
+#define Zeiss_portrait 0x2F
+Zeiss_data:
+#incext PortraitFormatter "Zeiss.png"
+setMugEntry(Zeiss_portrait, Zeiss_data, 2, 5, 2, 3)
+
+#define Hugh_portrait 0x30
+Hugh_data:
+#incext PortraitFormatter "Hugh.png"
+setMugEntry(Hugh_portrait, Hugh_data, 2, 5, 3, 3)
+
+#define Douglas_portrait 0x31
+Douglas_data:
+#incext PortraitFormatter "Douglas.png"
+setMugEntry(Douglas_portrait, Douglas_data, 2, 5, 3, 3)
+
+#define Garret_portrait 0x32
+Garret_data:
+#incext PortraitFormatter "Garret.png"
+setMugEntry(Garret_portrait, Garret_data, 2, 4, 3, 2)
+
+#define Niime_portrait 0x33
+Niime_data:
+#incext PortraitFormatter "Niime.png"
+setMugEntry(Niime_portrait, Niime_data, 2, 6, 2, 4)
+
+#define Juno_portrait 0x34
+Juno_data:
+#incext PortraitFormatter "Juno.png"
+setMugEntry(Juno_portrait, Juno_data, 2, 5, 3, 3)
+
+#define Dayan_portrait 0x35
+Dayan_data:
+#incext PortraitFormatter "Dayan.png"
+setMugEntry(Dayan_portrait, Dayan_data, 2, 5, 3, 3)
+
+#define Yoder_portrait 0x36
+Yoder_data:
+#incext PortraitFormatter "Yoder.png"
+setMugEntry(Yoder_portrait, Yoder_data, 2, 5, 3, 3)
+
+#define Karel_portrait 0x37
+Karel_data:
+#incext PortraitFormatter "Karel.png"
+setMugEntry(Karel_portrait, Karel_data, 2, 5, 3, 3)
+
+#define Alice_portrait 0x38
+Alice_data:
+#incext PortraitFormatter "Alice.png"
+setMugEntry(Alice_portrait, Alice_data, 2, 6, 3, 4)
+
+#define Melady_portrait 0x3A
+Melady_data:
+#incext PortraitFormatter "Melady.png"
+setMugEntry(Melady_portrait, Melady_data, 2, 5, 4, 3)
+

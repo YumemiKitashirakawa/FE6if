@@ -1,6 +1,6 @@
 @echo off
 
-SET startDir=C:\devkitPro\devkitARM\bin\
+SET startDir=F:\dev\devkitPro\devkitARM\bin\
 
 @rem Assemble into an elf
 SET as="%startDir%arm-none-eabi-as"

@@ -1,0 +1,14 @@
+## MasterLordName
+*{Master Lord}[X]
+
+## GrandPaladinName
+*{Grand Paladin}[X]
+## GrandPaladinDesc
+The true potential of[N]
+a paladin.[X]
+
+## FTruebladeName
+Trueblade[X]
+## FTruebladeDesc
+The true potential of a[N]
+swordmaster.[X]
